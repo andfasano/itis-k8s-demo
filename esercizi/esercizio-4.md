@@ -85,9 +85,9 @@ sostituendo `<IP>` con il valore precedentemente annotato:
 ```
 <IP> helloworld.local
 ```
-[!WARNING] 
-Presta attenzione quando editi il file `/etc/hosts`!
-Non cancellare il contenuto esistente!
+> [!WARNING] 
+> Presta attenzione quando editi il file `/etc/hosts`!
+> Non cancellare il contenuto esistente!
 10. Verifica che sia possibile accedere al servizio tramite browser
 11. Prova a modificare direttamente l'ingress, modificando il field `port.number` da `80` a `9999`:
 ```
