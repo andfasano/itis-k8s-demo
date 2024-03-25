@@ -55,7 +55,7 @@ spec:
   selector:
     app: hello-world
 ```
-6. Crea il file `hellowworld-ingress.yaml` con il seguente contenuto,
+6. Crea il file `helloworld-ingress.yaml` con il seguente contenuto,
 e crea l'ingress:
 ```
 apiVersion: networking.k8s.io/v1
@@ -75,7 +75,7 @@ spec:
                 port:
                   number: 80
 ```
-8. Verifica che l'ingressa sia stato creato correttamente:
+8. Verifica che l'ingress sia stato creato correttamente:
 ```
 $ kubectl get ingress
 ```
