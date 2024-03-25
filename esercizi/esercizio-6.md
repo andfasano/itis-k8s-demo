@@ -14,8 +14,8 @@ Per caricare l'immagine in minikube utilizza il seguente comando:
 ```
 $ minikube image build -t my_java_app .
 ```
-[!NOTE]
-Ricordati di configurare `imagePullPolicy: IfNotPresent` per il container scrittore, in modo
-che possa recuperare l'immagine correttamente.
+> [!NOTE]
+> Ricordati di configurare `imagePullPolicy: IfNotPresent` per il container scrittore, in modo
+> che possa recuperare l'immagine correttamente.
 
 *Bonus:* aggiungi un ingress in modo simile all'esercizio 4.
